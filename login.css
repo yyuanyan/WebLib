@@ -1,0 +1,68 @@
+body{
+	background: url(../img/bg.jpg) repeat fixed center;
+}
+.login{
+	position: fixed;
+	left: 700px;
+	top: 380px;
+	color: whitesmoke;
+	font-size: 25px;
+	font-family: YouYuan;
+}
+#tt{
+	margin-right: 5px;
+}
+input{
+	width: 280px;
+	height: 40px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	color: whitesmoke;
+	font-family: YouYuan;
+	text-indent: 20px;       /* 缩进*/
+	background-color: transparent;
+	outline: none;
+	transition:border-color 0.8s;
+	border-radius: 20px;
+}
+input:focus{
+	border-color: transparent;
+}
+input:placeholder-shown{
+	color:floralwhite;
+	
+}
+
+.enter{
+	color: whitesmoke;
+	font-size: 30px;
+	font-family: YouYuan;
+}
+.enter_login{
+	position: fixed;
+	left: 780px;
+	top: 550px;
+}
+.enter_register{
+	position: fixed;
+	left: 960px;
+	top: 558px;
+	font-size: 20px;
+}
+a:link,a:visited
+{
+	display:block;
+	/* font-weight:bold; */
+	color:#FFFFFF;
+	border-bottom: 1px solid transparent;
+	/* border-radius: 20px; */
+	width:80px;
+	text-align:center;
+	padding:2px;
+	transition:border-color 0.2s;
+	text-decoration:none;
+}
+a:hover,a:active
+{
+	border-color: whitesmoke;
+}
